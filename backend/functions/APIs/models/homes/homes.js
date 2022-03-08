@@ -77,7 +77,7 @@ export default function buildMakeHomeListing({ listingValidator }) {
 
         return Object.freeze({
             getId: () => id,
-            getTitle: () => name,
+            getTitle: () => title,
             getAddress: () => address,
             getDescription: () => description,
             getImage: () => image,

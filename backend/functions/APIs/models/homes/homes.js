@@ -68,7 +68,8 @@ export default function buildMakeHomeListing({ listingValidator }) {
             location,
             type,
             numBedroom,
-            numBathroom
+            numBathroom,
+            requests
         })
 
         if (error) {

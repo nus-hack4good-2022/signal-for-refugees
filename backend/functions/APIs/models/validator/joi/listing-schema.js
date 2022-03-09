@@ -10,5 +10,6 @@ module.exports = Joi.object().keys({
     location: Joi.string().required().error(() => 'Home location must be a string'),
     type: Joi.string().required().error(() => 'Home type must be a string'),
     numBedroom: Joi.number().required().error(() => 'Home numBedroom must be a number'),
-    numBathroom: Joi.number().required().error(() => 'Home numBathroom must be a number')
+    numBathroom: Joi.number().required().error(() => 'Home numBathroom must be a number'),
+    requests: Joi.array().required().error(() => 'Home requests must be an array'),
 });
